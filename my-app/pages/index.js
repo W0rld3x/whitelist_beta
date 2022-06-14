@@ -151,7 +151,7 @@ export default function Home() {
       if (joinedWhitelist) {
         return (
           <div className={styles.description}>
-            Merci d'avoir rejoint la Whitelist
+            Merci de nous avoir rejoint !
           </div>
         );
       } else if (loading) {
@@ -213,7 +213,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-       Ce site est actuellement en bêta, toute action doit être réalisée sur le réseau de test de polygon "Mumbai" 
+       Ce site est actuellement en bêta, toute action doit être réalisée sur le réseau de test de polygon Mumbai 
       </footer>
     </div>
   );
